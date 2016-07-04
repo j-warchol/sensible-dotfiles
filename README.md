@@ -23,7 +23,7 @@ It will make a backup of your existing config files before installing new ones
 (unless you run it with `--overwrite` option).
 
     git clone https://github.com/janek-warchol/sensible-dotfiles ~/.dotfiles.git
-    ~/.dotfiles.git/.install-dotfiles.sh
+    ~/.dotfiles.git/.link-dotfiles.sh
 
 You'll probably want to move some parts of your old configuration into
 the new files.  For convenience, all `.sh` files from `.config/bash/` directory
